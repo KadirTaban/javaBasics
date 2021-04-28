@@ -4,11 +4,8 @@ public class oopIntro {
 
     public static void main(String[]args) {
 
-        Product product1= new Product();//ornek olusturma,referans olusturma,instance olusturma
-        product1.id =1 ;
-        product1.name="Lenovo V14";
-        product1.unitPrice= 15000;
-        product1.detail = "16 GB RAM";
+        Product product1= new Product(1,"Lenovo V14", 15000,"16GB RAM");//ornek olusturma,referans olusturma,instance olusturma
+
 
 
         Product product2= new Product();
@@ -19,7 +16,7 @@ public class oopIntro {
 
         Product product3= new Product();
         product3.id =3 ;
-        product3.name=" Hp ";
+        product3.name="Hp ";
         product3.unitPrice= 8000;
         product3.detail = "8 GB RAM";
 
@@ -39,5 +36,11 @@ public class oopIntro {
         category2.id=1;
         category2.name="Ev/Bahçe";
 
+        ProductManager productManager = new ProductManager();
+        productManager.addToCart(product1);
+
+        productManager.addToCart(product2);
+
+        productManager.addToCart(product3);
     }
 }
