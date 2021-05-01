@@ -2,7 +2,7 @@ package oopIntro;
 
 public class ProductManager {
     public void addToCart(Product product) {
-        System.out.println(product.name + " Sepete ekleme kodu çağırıldı.");
+        System.out.println(product.getName() + " Sepete ekleme kodu çağırıldı.");
 
     }
 }
