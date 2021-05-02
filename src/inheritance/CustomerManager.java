@@ -1,16 +1,16 @@
 package inheritance;
 
-public class CustomerManager {
-    public void add(Customer customer) {
-        System.out.println(customer.customerNumber + "kaydedildi.");
-    }
-    //bulk insert
-    public void addMultiple(Customer[] customers) {
+import inheritance2.DatabaseLogger;
+import inheritance2.Logger;
 
-        for(Customer customer : customers){
-            add(customer);
-        }
+public class CustomerManager {
+    public void add(Logger logger){
+        System.out.println("Müşteri eklendi.");
+        logger.log();
+
+
     }
+
 
 
 

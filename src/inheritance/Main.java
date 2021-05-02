@@ -14,8 +14,6 @@ public class Main {
 
         CustomerManager customerManager = new CustomerManager();
         Customer[] customers = {engin,hepsiBurada};
-        customerManager.add(abc);
-        customerManager.addMultiple(customers);
 
        //customerManager.add(hepsiBurada);
         // customerManager.add(engin);
