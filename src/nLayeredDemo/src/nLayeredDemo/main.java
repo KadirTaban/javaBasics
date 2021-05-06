@@ -12,7 +12,7 @@ public class main {
         ProductService productService = new ProductManager(new HibernateProductDao());
         //entity dışında new yaparsan illa hata alırsın ama bunu Spring IoC ile cozecegiz.
         //interfaceler somut sınıfların referansını tutar
-        Product product=new Product(1,2,"Elma",12,50);
+        Product product=new Product(5,2,"Elma",12,50);
         productService.add(product);
 
 

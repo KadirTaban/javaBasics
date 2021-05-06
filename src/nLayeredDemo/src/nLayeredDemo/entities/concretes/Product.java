@@ -17,7 +17,7 @@ public class Product implements Entity {
 
     public Product(int id, int categoryId, String name, double unitPrice, int unitInStock) {
         this.id = id;
-        this.categoryId=id;
+        this.categoryId=categoryId;
         this.name=name;
         this.unitPrice=unitPrice;
         this.unitInStock=unitInStock;
