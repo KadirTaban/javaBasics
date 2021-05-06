@@ -14,7 +14,8 @@ public class Main {
         kadir.setId(1);
         kadir.setFirstName("Kadir");
         kadir.setLastName("Taban");
-
+        kadir.setNationalId("19186433342");
+        kadir.setDate(2001,01,02);
 
         Game Gta5= new Game();
         Gta5.setName("GTA 5");
@@ -23,10 +24,10 @@ public class Main {
         CampaignSales summer = new CampaignSales();
 
         summer.setCampaignName("Summer discounts");
-        summer.setDiscount(0.75);
+        summer.setDiscount(0.50);
 
         double newPrice = summer.getDiscount() * Gta5.getPrice();
-        System.out.println(newPrice);
+        System.out.println("New Price : "+newPrice);
         CampaignSalesManager campaignSalesManager = new CampaignSalesManager() {
 
             @Override
