@@ -51,6 +51,9 @@ public class UserManager implements UserService {
 
     @Override
     public void Login(String email, String password) {
+        if(this.emailConfirmManager.confirmEmail(email));
+            return;
+
 
     }
 
