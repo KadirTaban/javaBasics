@@ -12,6 +12,12 @@ public class HibernateUserDao implements UserDao {
     }
 
     @Override
+    public boolean Login(String email, String password) {
+
+        return true;
+    }
+
+    @Override
     public void update(User user) {
 
     }

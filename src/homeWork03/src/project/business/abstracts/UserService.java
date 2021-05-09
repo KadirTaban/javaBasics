@@ -9,14 +9,14 @@ public interface UserService {
 
     void add(User user);
 
+    void Login(String email, String password);
+
+
     List<User> getAll();
 
-    public interface ProductService {
-        void add(User user);
 
-        List<User> getAll();
 
-    }
+
 
 
 }
