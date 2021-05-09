@@ -1,4 +1,4 @@
-package homeWork03.src.entities.concretes;
+package homeWork03.src.project.entities.concretes;
 
 public class User {
 

@@ -1,4 +1,4 @@
-package homeWork03.src.googleAuth;
+package homeWork03.src.project.googleAuth;
 
 public class GoogleAuthManager{
 

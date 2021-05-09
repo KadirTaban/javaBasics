@@ -1,14 +1,14 @@
-package homeWork03.src.dataAccess.concretes;
+package homeWork03.src.project.dataAccess.concretes;
 
-import homeWork03.src.dataAccess.abstracts.UserDao;
-import homeWork03.src.entities.concretes.User;
+import homeWork03.src.project.dataAccess.abstracts.UserDao;
+import homeWork03.src.project.entities.concretes.User;
 
 import java.util.List;
 
-public class HibernateUserDao implements UserDao {
+public class AbcUserDao implements UserDao {
     @Override
     public void add(User user) {
-        System.out.println("Hibernate ile eklendi");
+        System.out.println("Abc ile eklendi"+user.getName());
     }
 
     @Override

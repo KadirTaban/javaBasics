@@ -1,6 +1,6 @@
-package homeWork03.src.dataAccess.abstracts;
+package homeWork03.src.project.dataAccess.abstracts;
 
-import homeWork03.src.entities.concretes.User;
+import homeWork03.src.project.entities.concretes.User;
 
 import java.util.List;
 
